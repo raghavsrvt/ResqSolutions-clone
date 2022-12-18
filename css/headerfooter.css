@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'GT Flexa';
+    src: url(../Grilli-Type-Trial-Fonts-2022-02-v3/Desktop/GT-Maru-Bold-Trial.otf);
+}
+
+@font-face {
+    font-family: 'GT Flexa-Regular';
+    src: url(../Grilli-Type-Trial-Fonts-2022-02-v3/Desktop/GT-Maru-Regular-Trial.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.main{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #f8f7f7;
+}
+
+img{
+    image-rendering: -webkit-optimize-contrast;
+}
+
+header{
+    display: flex;
+    height: 89px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height:89px;
+    margin-right: 20px ;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 1366px;
+    height: 89px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav ul{
+    line-height: 2;
+}
+
+.nava{
+    text-decoration: none;
+    font-family: 'GT Flexa' , sans-serif;
+    color: #272f3c;
+    font-size: 16px;
+    padding: 12px 5px;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    transition-property: all; 
+}
+
+.header ul{
+    margin-left: 20px;
+}
+
+.nava:hover {
+    color: #eb148e;
+}
+
+.icon{
+    margin-left: 20px ;
+    font-family: 'GT Flexa' , sans-serif;
+    color: #231f20;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.icon-copy{
+    font-family: 'GT Flexa' , sans-serif;
+    color: #231f20;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav{
+    height: 75px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navi{
+    text-decoration: none;
+    color: #272f3c;
+    font-family: 'Lato' , sans-serif;
+    font-size: 15px;
+}
+
+.navi:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: white;
+    height: 300px;
+    margin-top: 102px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    height: 150px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navi{
+    text-decoration: none;
+    color: #272f3c;
+    font-family: 'GT Flexa' , sans-serif;
+    font-size: 15px;
+    padding: 12px 5px;
+}
+
+.navi:hover{
+    text-decoration: underline #272f3c;
+}
+
+ul li{
+    list-style: none;
+}
+
+.credits{
+    font-family: 'Inter' , sans-serif;
+    color: black;
+    font-size: 14px;
+    text-decoration-color: #eb148e;
+}
+
+.copy{
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy p{
+    font-family: 'GT Flexa-Regular' , sans-serif;
+    font-weight: 500;   
+    color: #272f3c;
+    text-align: center;
+}
+
+.copyright{
+    color: #eb148e;
+}

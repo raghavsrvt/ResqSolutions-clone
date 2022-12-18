@@ -1,0 +1,38 @@
+@media screen and (max-width : 1000px){
+    .welcomed{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #b9f5fe;
+        height: 600px;
+    }
+    
+    .welcomediv{
+        width: 1142px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #b9f5fe;
+        height: 600px;
+    }
+    
+    .welcomediv div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .welcomep{
+        font-family: 'Inter' , sans-serif;
+        font-size: 33px ;
+        color: #272f3c;
+        text-align: center;
+    }
+
+    .pest{
+        height: 300px;
+    }
+}

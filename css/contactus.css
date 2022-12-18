@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: 'GT Flexa';
+    src: url(../Grilli-Type-Trial-Fonts-2022-02-v3/Desktop/GT-Maru-Medium-Trial.otf);
+}
+@font-face {
+    font-family: 'GT Flexa-Regular';
+    src: url(../Grilli-Type-Trial-Fonts-2022-02-v3/Desktop/GT-Maru-Regular-Trial.otf);
+}
+
+
+.maind{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 1366px;
+    align-items: center;
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+h2{
+    color: black;
+    font-family: 'GT Flexa-Regular' , sans-serif;
+}
+
+.mains span{
+    font-family: 'Iter' , sans-serif;
+    font-weight: 600;
+    color: #eb148e;
+}
+
+.email{
+    color: black;
+}
+
+iframe{
+    max-width: 512px;
+    max-height: 350px;
+    width: 37.4vw; 
+    height: 45.5vh;
+}
+
+.mains{
+    line-height: 2;
+    padding: 25px 50px;
+    background-color: white;
+    border-radius: 5px;
+    width: 37.4vw;
+    max-width: 512px;    
+}
+
+.mains p{
+    font-family: 'Inter' , sans-serif;
+}
+
+.contact{
+    margin-top:50px;
+    text-align: center;
+    font-family: 'GT Flexa-Regular' , sans-serif;
+    font-size: 34px;
+}
+
+.main{
+    overflow: hidden;
+}
+
+@media screen and (min-height : 985px) {
+    footer{ 
+        position: absolute;
+        bottom: 0;
+    }
+}

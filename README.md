@@ -1,0 +1,2 @@
+# ResqSolutions-clone
+In this repository I recreated an outdated website for a pesticide business by implementing modern web design techniques to make it fresh, mobile-friendly, and fully responsive on all devices.

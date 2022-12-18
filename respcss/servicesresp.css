@@ -1,0 +1,18 @@
+@media screen and (max-width : 1000px){
+    .pest-card{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .pest-card{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-height : 896px){
+    .pest-d{
+        height: 27.5vh;
+    }
+}

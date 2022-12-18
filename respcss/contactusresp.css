@@ -1,0 +1,36 @@
+@media screen and (max-width : 1000px){
+    .main{
+        flex-direction: column;
+        width: 98vw;
+        height: 100vh;
+    }
+    .mains{
+        max-width: 98vw;
+        width: 70vw;
+    }
+    .map{
+        max-width: 512px;
+        width: 512px;
+        width: 70vw;
+    }
+
+    .email{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .mains{
+        margin-top: 6vh;
+    }
+
+    .maind{
+        margin-top: 6vh;
+    }
+}
+
+@media screen and (max-width : 364px) {
+    .mains{
+        border: 0px solid black;
+    }
+}
